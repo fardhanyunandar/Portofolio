@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Perbaikan path: folder public adalah root, jadi jangan sertakan /public di href -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="google-site-verification" content="google-site-verification=v1XAwJtvWuL87Ypmjw_q6QAgQtLwWbqxjdN3U-IDqB8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Fardhan Maulana | Junior Web Developer</title>
+    <meta name="description" content="Portfolio profesional Fardhan Maulana Yunandar, seorang Junior Web Developer. Menampilkan proyek-proyek web modern dan keahlian teknis." />
+    
+    <!-- Open Graph (Agar saat di-share link ke media sosial tampilannya rapi) -->
+    <meta property="og:title" content="Fardhan Maulana | Junior Web Developer" />
+    <meta property="og:description" content="Portfolio profesional Fardhan Maulana Yunandar, seorang Junior Web Developer." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fardhan.web.id/" />
+
+    <!-- Structured Data (JSON-LD) agar Google mengenali profilmu sebagai Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fardhan Maulana Yunandar",
+      "url": "https://fardhan.web.id",
+      "jobTitle": "Junior Web Developer"
+    }
+    </script>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body>
+    <!-- Fallback content jika JavaScript belum dimuat -->
+    <div id="root">
+      <h1>Fardhan Maulana</h1>
+      <p>Junior Web Developer Portfolio</p>
+    </div>
+  </body>
+</html>
